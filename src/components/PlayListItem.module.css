@@ -1,0 +1,38 @@
+.playlistbody{
+    margin: 0;
+    padding-bottom: 1000px;
+}
+.playlist{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
+}
+.playlist img{
+    height: 50px;
+}
+.playlist p,h3{
+    margin: 0;
+}
+.playlink{
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    width: 100px;
+    display: block;
+    margin: 5px;
+    cursor: pointer;
+}
+.playlist a{
+    width: 90px;
+}

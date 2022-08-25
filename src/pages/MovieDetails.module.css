@@ -1,0 +1,59 @@
+.loading{
+    height: 700px;
+}
+.loading img{
+    margin-left: 45%;
+    margin-top: 20%;
+    height: 100px;
+}
+.movieContainer{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.movieContainer img{
+    height: 450px;
+    width: 100%;
+}
+.movieImage{
+    background-color: #0d0d0d;
+    padding: 20px;
+    border-radius: 5px;
+}
+.movieDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.movieContainer a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid red;
+    border-radius: 2px;
+    width: max-content;
+}
+.movieContainer a:hover{
+    background-color: #1a1a1a;
+}
+@media only screen and (max-width: 1000px) {
+    .movieContainer{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 830px) {
+    .movieContainer{
+        display: block;
+    }
+    .movieDetails{
+        width: 80%;
+    }
+    .movieImage{
+        width: max-content;
+    }
+}

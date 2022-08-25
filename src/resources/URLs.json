@@ -1,0 +1,4 @@
+{
+    "URL" : "YOUR FIREBASE REALTIME DATABASE URL",
+    "tmdbApiKey" : "YOUR TMDB API KEY"
+}
